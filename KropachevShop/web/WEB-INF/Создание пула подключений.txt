@@ -1,0 +1,4 @@
+create-jdbc-connection-pool --datasourceclassname com.mysql.jdbc.jdbc2.optional.MysqlDataSource --restype javax.sql.DataSource --property portNumber=3306:password=kropachevshop:user=kropachevshop:serverName=localhost:databaseName=kropachevshop:useUnicode=true:characterEncoding=utf8 kropachevshopPool
+create-jdbc-resource --connectionpoolid kropachevshopPool jdbc/kropachevshopDS
+
+
